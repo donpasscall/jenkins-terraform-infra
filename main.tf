@@ -24,8 +24,8 @@ locals {
   ports_out		= [0]
 }
 
-resource "aws_security_group" "lifebit_SG" {
-  name        		= "lifebit_SG"
+resource "aws_security_group" "jenkinssl-SG" {
+  name        		= "jenkinssl-SG"
   description 		= "Allow TLS inbound traffic"
   vpc_id      		= "${aws_vpc.lifebit_vpc.id}"
 
