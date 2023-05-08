@@ -82,7 +82,7 @@ resource "aws_instance" "lifebit" {
   ami           	= "ami-007855ac798b5175e"
   instance_type 	= "t2.micro"
 #  key_name 		= aws_key_pair.lifebit.key_name
-  security_groups	= ["${aws_security_group.lifebit_SG.id}"]
+  security_groups	= ["${aws_security_group.jenkinssl-SG.id}"]
   
 #  user_data	= file('install_app.sh') # Where the entire content of the script below is defined in the "install_app.sh" file.
 # user_data	= <<EOF
