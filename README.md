@@ -32,4 +32,7 @@ sudo yum -y install terraform
 8. Go to GitHub and create the pipeline script
 9. Go to GitHub and create the terraform scripts
 10. Setup the pipeline in jenkins.
-11. Enjoy!!
+- select pipeline
+- this project is paremeterized
+- action  ....choices: apply destroy
+12. Enjoy!!
