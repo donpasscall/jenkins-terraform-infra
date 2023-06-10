@@ -79,7 +79,7 @@ resource "aws_security_group" "jenkinssl-SG" {
 
 
 resource "aws_instance" "lifebit" {
-  ami           	= "ami-007855ac798b5175e"
+  ami           	= "ami-04a0ae173da5807d3"
   instance_type 	= "t2.micro"
 #  key_name 		= aws_key_pair.lifebit.key_name
   security_groups	= ["${aws_security_group.jenkinssl-SG.id}"]
