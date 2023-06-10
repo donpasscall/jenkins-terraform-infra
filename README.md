@@ -7,7 +7,7 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 If you've previously imported the key from Jenkins, the rpm --import will fail because you already have a key. Please ignore that and move on.
 
 sudo amazon-linux-extras install java-openjdk11
-yum install jenkins
+sudo yum install jenkins
   
 The rpm packages were signed using this key:
 You can enable the Jenkins service to start at boot with the command:
