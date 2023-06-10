@@ -119,7 +119,7 @@ resource "aws_instance" "lifebit" {
 # }
 
 
-resource "aws_eip" "lifebit_eip" {
+resource "aws_instance" "lifebit" {
   instance		= "${aws_instance.lifebit.id}"
   vpc 			= true
 }
